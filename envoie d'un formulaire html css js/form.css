@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    display: flex;
+
+}
+p{
+    position: absolute;
+    top: 1px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    width: 99%;
+    margin-top: -6px;
+    color:  rgb(76, 197, 129);
+    text-align: center;
+}
+.page2{
+    
+    
+    background-color: grey;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20vh;
+    color: white;
+    padding-top: 110px;
+    border: 1px solid #ccc;
+      width: 20%;
+    height: 380px; 
+    margin-left:81vh;
+    text-align: center;
+    transition: 0.5s  ease;
+}
+
+form{
+    position: absolute;
+    width: 20%;
+    height: 380px;
+    background-color: rgb(76, 197, 129);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20vh;
+    margin-left:81vh;
+
+}
+.input{
+    display: flex;
+    margin-top: 15px;
+    width: 97%;
+    height: 22px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    }
+#submit{
+    margin-top: 60px;
+    width: 98%;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    
+
+}
+.input::placeholder{
+    color: white !important;
+}
